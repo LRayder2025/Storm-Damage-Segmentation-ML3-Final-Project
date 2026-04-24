@@ -1,0 +1,184 @@
+Torch version: 2.7.1+cu118
+CUDA available: True
+Torch CUDA version: 11.8
+CUDA device name: NVIDIA A100-SXM4-80GB
+torch.Size([6, 1024, 1024])
+torch.Size([1024, 1024])
+tensor([0, 1, 2, 3, 4])
+
+--- Epoch 1/32 ---
+TRAIN | Loss: 0.3858 | F1: 0.0891 | IoU: 0.0618
+VAL   | Loss: 0.2323 | F1: 0.0963 | IoU: 0.0727 | B_Acc: 0.2821
+New best model saved
+
+--- Epoch 2/32 ---
+TRAIN | Loss: 0.1845 | F1: 0.1103 | IoU: 0.0812
+VAL   | Loss: 0.1233 | F1: 0.1101 | IoU: 0.0846 | B_Acc: 0.2905
+New best model saved
+
+--- Epoch 3/32 ---
+TRAIN | Loss: 0.1662 | F1: 0.1184 | IoU: 0.0891
+VAL   | Loss: 0.1331 | F1: 0.1096 | IoU: 0.0845 | B_Acc: 0.2894
+
+--- Epoch 4/32 ---
+TRAIN | Loss: 0.1575 | F1: 0.1335 | IoU: 0.1006
+VAL   | Loss: 0.2181 | F1: 0.1070 | IoU: 0.0794 | B_Acc: 0.2831
+
+--- Epoch 5/32 ---
+TRAIN | Loss: 0.1506 | F1: 0.1354 | IoU: 0.1017
+VAL   | Loss: 0.2298 | F1: 0.1149 | IoU: 0.0838 | B_Acc: 0.2850
+
+--- Epoch 6/32 ---
+TRAIN | Loss: 0.1444 | F1: 0.1455 | IoU: 0.1100
+VAL   | Loss: 0.1369 | F1: 0.1280 | IoU: 0.0934 | B_Acc: 0.2926
+
+--- Epoch 7/32 ---
+TRAIN | Loss: 0.1388 | F1: 0.1497 | IoU: 0.1139
+VAL   | Loss: 0.1292 | F1: 0.1392 | IoU: 0.1078 | B_Acc: 0.3103
+
+--- Epoch 8/32 ---
+TRAIN | Loss: 0.1332 | F1: 0.1583 | IoU: 0.1218
+VAL   | Loss: 0.1210 | F1: 0.1434 | IoU: 0.1105 | B_Acc: 0.3142
+New best model saved
+
+--- Epoch 9/32 ---
+TRAIN | Loss: 0.1264 | F1: 0.1646 | IoU: 0.1277
+VAL   | Loss: 0.2102 | F1: 0.1075 | IoU: 0.0742 | B_Acc: 0.2715
+
+--- Epoch 10/32 ---
+TRAIN | Loss: 0.1240 | F1: 0.1685 | IoU: 0.1305
+VAL   | Loss: 0.0952 | F1: 0.1526 | IoU: 0.1211 | B_Acc: 0.3301
+New best model saved
+
+--- Epoch 11/32 ---
+TRAIN | Loss: 0.1174 | F1: 0.1796 | IoU: 0.1404
+VAL   | Loss: 0.1125 | F1: 0.1346 | IoU: 0.1042 | B_Acc: 0.3076
+
+--- Epoch 12/32 ---
+TRAIN | Loss: 0.1137 | F1: 0.1853 | IoU: 0.1443
+VAL   | Loss: 0.0903 | F1: 0.1624 | IoU: 0.1280 | B_Acc: 0.3258
+New best model saved
+
+--- Epoch 13/32 ---
+TRAIN | Loss: 0.1089 | F1: 0.1920 | IoU: 0.1497
+VAL   | Loss: 0.0988 | F1: 0.1720 | IoU: 0.1348 | B_Acc: 0.3457
+
+--- Epoch 14/32 ---
+TRAIN | Loss: 0.1041 | F1: 0.2104 | IoU: 0.1648
+VAL   | Loss: 0.1130 | F1: 0.1678 | IoU: 0.1305 | B_Acc: 0.3238
+
+--- Epoch 15/32 ---
+TRAIN | Loss: 0.1014 | F1: 0.2115 | IoU: 0.1651
+VAL   | Loss: 0.0957 | F1: 0.1684 | IoU: 0.1326 | B_Acc: 0.3300
+
+--- Epoch 16/32 ---
+TRAIN | Loss: 0.0948 | F1: 0.2314 | IoU: 0.1819
+VAL   | Loss: 0.1135 | F1: 0.1531 | IoU: 0.1211 | B_Acc: 0.3240
+
+--- Epoch 17/32 ---
+TRAIN | Loss: 0.0935 | F1: 0.2367 | IoU: 0.1860
+VAL   | Loss: 0.1022 | F1: 0.1940 | IoU: 0.1513 | B_Acc: 0.3508
+
+--- Epoch 18/32 ---
+TRAIN | Loss: 0.0881 | F1: 0.2484 | IoU: 0.1958
+VAL   | Loss: 0.1029 | F1: 0.2062 | IoU: 0.1587 | B_Acc: 0.3491
+
+--- Epoch 19/32 ---
+TRAIN | Loss: 0.0910 | F1: 0.2464 | IoU: 0.1939
+VAL   | Loss: 0.0895 | F1: 0.2033 | IoU: 0.1591 | B_Acc: 0.3544
+New best model saved
+
+--- Epoch 20/32 ---
+TRAIN | Loss: 0.0796 | F1: 0.2744 | IoU: 0.2184
+VAL   | Loss: 0.2312 | F1: 0.1937 | IoU: 0.1477 | B_Acc: 0.3403
+
+--- Epoch 21/32 ---
+TRAIN | Loss: 0.0792 | F1: 0.2755 | IoU: 0.2187
+VAL   | Loss: 0.1140 | F1: 0.1994 | IoU: 0.1501 | B_Acc: 0.3453
+
+--- Epoch 22/32 ---
+TRAIN | Loss: 0.0795 | F1: 0.2788 | IoU: 0.2215
+VAL   | Loss: 0.1925 | F1: 0.1866 | IoU: 0.1466 | B_Acc: 0.3419
+
+--- Epoch 23/32 ---
+TRAIN | Loss: 0.0759 | F1: 0.2945 | IoU: 0.2356
+VAL   | Loss: 0.1234 | F1: 0.2027 | IoU: 0.1561 | B_Acc: 0.3556
+
+--- Epoch 24/32 ---
+TRAIN | Loss: 0.0726 | F1: 0.3007 | IoU: 0.2418
+VAL   | Loss: 0.0902 | F1: 0.2240 | IoU: 0.1745 | B_Acc: 0.3698
+
+--- Epoch 25/32 ---
+TRAIN | Loss: 0.0696 | F1: 0.3128 | IoU: 0.2521
+VAL   | Loss: 0.1290 | F1: 0.2169 | IoU: 0.1675 | B_Acc: 0.3648
+
+--- Epoch 26/32 ---
+TRAIN | Loss: 0.0675 | F1: 0.3220 | IoU: 0.2603
+VAL   | Loss: 0.1149 | F1: 0.2205 | IoU: 0.1710 | B_Acc: 0.3644
+
+--- Epoch 27/32 ---
+TRAIN | Loss: 0.0679 | F1: 0.3270 | IoU: 0.2654
+VAL   | Loss: 0.1060 | F1: 0.2170 | IoU: 0.1697 | B_Acc: 0.3645
+
+--- Epoch 28/32 ---
+TRAIN | Loss: 0.0597 | F1: 0.3534 | IoU: 0.2896
+VAL   | Loss: 0.0919 | F1: 0.2307 | IoU: 0.1806 | B_Acc: 0.3781
+
+--- Epoch 29/32 ---
+TRAIN | Loss: 0.0614 | F1: 0.3522 | IoU: 0.2880
+VAL   | Loss: 0.0818 | F1: 0.2264 | IoU: 0.1771 | B_Acc: 0.3735
+New best model saved
+
+--- Epoch 30/32 ---
+TRAIN | Loss: 0.0582 | F1: 0.3657 | IoU: 0.3017
+VAL   | Loss: 0.1280 | F1: 0.2025 | IoU: 0.1564 | B_Acc: 0.3527
+
+--- Epoch 31/32 ---
+TRAIN | Loss: 0.0535 | F1: 0.3818 | IoU: 0.3175
+VAL   | Loss: 0.1209 | F1: 0.2191 | IoU: 0.1707 | B_Acc: 0.3630
+
+--- Epoch 32/32 ---
+TRAIN | Loss: 0.0565 | F1: 0.3786 | IoU: 0.3136
+VAL   | Loss: 0.1179 | F1: 0.2286 | IoU: 0.1786 | B_Acc: 0.3749
+
+==================================================
+TRAINING COMPLETE - LOSS HISTORY
+==================================================
+Epoch  1 | Train Loss: 0.3858 | Val Loss: 0.2323
+Epoch  2 | Train Loss: 0.1845 | Val Loss: 0.1233
+Epoch  3 | Train Loss: 0.1662 | Val Loss: 0.1331
+Epoch  4 | Train Loss: 0.1575 | Val Loss: 0.2181
+Epoch  5 | Train Loss: 0.1506 | Val Loss: 0.2298
+Epoch  6 | Train Loss: 0.1444 | Val Loss: 0.1369
+Epoch  7 | Train Loss: 0.1388 | Val Loss: 0.1292
+Epoch  8 | Train Loss: 0.1332 | Val Loss: 0.1210
+Epoch  9 | Train Loss: 0.1264 | Val Loss: 0.2102
+Epoch 10 | Train Loss: 0.1240 | Val Loss: 0.0952
+Epoch 11 | Train Loss: 0.1174 | Val Loss: 0.1125
+Epoch 12 | Train Loss: 0.1137 | Val Loss: 0.0903
+Epoch 13 | Train Loss: 0.1089 | Val Loss: 0.0988
+Epoch 14 | Train Loss: 0.1041 | Val Loss: 0.1130
+Epoch 15 | Train Loss: 0.1014 | Val Loss: 0.0957
+Epoch 16 | Train Loss: 0.0948 | Val Loss: 0.1135
+Epoch 17 | Train Loss: 0.0935 | Val Loss: 0.1022
+Epoch 18 | Train Loss: 0.0881 | Val Loss: 0.1029
+Epoch 19 | Train Loss: 0.0910 | Val Loss: 0.0895
+Epoch 20 | Train Loss: 0.0796 | Val Loss: 0.2312
+Epoch 21 | Train Loss: 0.0792 | Val Loss: 0.1140
+Epoch 22 | Train Loss: 0.0795 | Val Loss: 0.1925
+Epoch 23 | Train Loss: 0.0759 | Val Loss: 0.1234
+Epoch 24 | Train Loss: 0.0726 | Val Loss: 0.0902
+Epoch 25 | Train Loss: 0.0696 | Val Loss: 0.1290
+Epoch 26 | Train Loss: 0.0675 | Val Loss: 0.1149
+Epoch 27 | Train Loss: 0.0679 | Val Loss: 0.1060
+Epoch 28 | Train Loss: 0.0597 | Val Loss: 0.0919
+Epoch 29 | Train Loss: 0.0614 | Val Loss: 0.0818
+Epoch 30 | Train Loss: 0.0582 | Val Loss: 0.1280
+Epoch 31 | Train Loss: 0.0535 | Val Loss: 0.1209
+Epoch 32 | Train Loss: 0.0565 | Val Loss: 0.1179
+
+--- Test Set Performance ---
+Final F1: 0.2284
+Final IoU: 0.1801
+Calculated Dice Loss: 0.7716
+Overall Balanced Accuracy: 0.3764
